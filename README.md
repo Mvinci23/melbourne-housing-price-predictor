@@ -26,21 +26,48 @@ The project evaluates multiple regression models and selects the best-performing
 
 # 📂 Dataset
 
+
+
 The dataset contains **34,857 records and 21 variables** describing properties in Melbourne.
 
-### Key Features
-
-| Feature | Description |
-|------|------|
-| Rooms | Number of rooms |
-| Type | Property type |
-| Distance | Distance from CBD |
-| Bathroom | Number of bathrooms |
-| Landsize | Property land size |
-| BuildingArea | Building size |
-| Regionname | Melbourne region |
-| Lattitude / Longtitude | Property location |
-| Propertycount | Number of properties in suburb |
+### Key Details of Variables
+Suburb
+Address
+Rooms: Number of rooms
+Price: Price in Australian dollars, target variable
+Method:
+S = property sold
+SP = property sold prior
+PI = property passed in
+PN = sold prior not disclosed
+SN = sold not disclosed
+NB = no bid
+VB = vendor bid
+W = withdrawn prior to auction
+SA = sold after auction
+SS = sold after auction price not disclosed
+N/A = price or highest bid not available.
+Type:
+br = bedroom(s)
+h = house,cottage,villa, semi,terrace
+u = unit, duplex
+t = townhouse
+dev site = development site
+o res = other residential.
+SellerG: Real Estate Agent
+Date: Date sold
+Distance: Distance from CBD in Kilometres
+Regionname: General Region (West, North West, North, North east ...etc)
+Propertycount: Number of properties that exist in the suburb.
+Bedroom2 : Scraped # of Bedrooms (from different source)
+Bathroom: Number of Bathrooms
+Car: Number of carspots
+Landsize: Land Size in Metres
+BuildingArea: Building Size in Metres
+YearBuilt: Year the house was built
+CouncilArea: Governing council for the area
+Lattitude
+Longtitude
 
 Target Variable: 
 - Price
