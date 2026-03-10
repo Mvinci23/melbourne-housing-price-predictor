@@ -199,5 +199,18 @@ Cross-validation results:
 - R² : 0.859 ± 0.015
 - MAE : 0.141 ± 0.012
 - RMSE : 0.192 ± 0.014
+
+## 💼 Business Problem
+
+Real estate companies need accurate house price predictions to help buyers, sellers, and investors make informed decisions.
+
+This project builds a machine learning model to estimate property prices in Melbourne based on property characteristics and location features.
+
+The model can be used for:
+
+• Property valuation  
+• Real estate investment analysis  
+• Market trend analysis  
+• Automated pricing systems  
   
 
